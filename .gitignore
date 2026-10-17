@@ -1,0 +1,30 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# Windows / Linux
+Thumbs.db
+desktop.ini
+*~
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Secrets and local runtime data
+.env
+.env.*
+*.htpasswd
+*.log

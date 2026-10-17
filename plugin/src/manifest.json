@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+  "name": "WebDAV Missing-File Fix",
+  "version": "1.0.0",
+  "description": "Keeps WebDAV attachments whose file is not on the server yet marked for download instead of 'in sync', and re-queues attachments already stuck that way.",
+  "applications": {
+    "zotero": {
+      "id": "webdav-missing-fix@local",
+      "update_url": "https://localhost/webdav-missing-fix/update.json",
+      "strict_min_version": "6.999",
+      "strict_max_version": "10.*"
+    }
+  }
+}
